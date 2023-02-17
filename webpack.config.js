@@ -1,10 +1,6 @@
 const path = require("path");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 
-// Instantiate the plugin.
-// The `template` property defines the source
-// of a template file that this plugin will use.
-// We will create it later.
 const htmlPlugin = new HtmlWebPackPlugin({
     template: "./public/index.html",
 });
